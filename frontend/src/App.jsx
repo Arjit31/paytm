@@ -1,6 +1,6 @@
-import { Dashboard } from "./pages/dashboard"
-import { Signin } from "./pages/signin"
-import { Signup } from "./pages/signup"
+import { Dashboard } from "./pages/Dashboard"
+import { Signin } from "./pages/Signin"
+import { Signup } from "./pages/Signup"
 import { SendMoney } from "./pages/SendMoney"
 
 import{
@@ -14,7 +14,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <h1>Hello world</h1>
         <Routes>
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
