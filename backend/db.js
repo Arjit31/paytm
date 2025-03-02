@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://InterProject:T5r8e3KddO8LUqyX@cluster0.vc8rwmr.mongodb.net/', {
+mongoose.connect('mongodb+srv://InterProject:T5r8e3KddO8LUqyX@cluster0.vc8rwmr.mongodb.net/paytm', {
     w: "majority",  // Write concern
     wtimeoutMS: 5000  // Optional write concern timeout in milliseconds
   })
